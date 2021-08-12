@@ -1,0 +1,16 @@
+<manifest>
+<remote fetch="git://github.com/" name="github"/>
+<remote fetch="ssh://git@gitlab.bisdn.de/" name="gitlab"/>
+<remote fetch="git://git.openembedded.org/" name="oe"/>
+<remote fetch="git://git.yoctoproject.org/" name="yocto"/>
+<project dest-branch="master" name="bisdn/bisdn-onie-additions.git" path="poky/bisdn-onie-additions" remote="github" revision="16e031162807dd9eb9b85457462bb9c4c21568a3" sync-s="true" upstream="master"/>
+<project dest-branch="dunfell" name="meta-cloud-services" path="poky/meta-cloud-services" remote="yocto" revision="ac62b95147f5e7377e7b86aadbed11ccf75adc40" upstream="dunfell"/>
+<project dest-branch="dunfell" name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="85f8047c71047d93cf79a954142157f85079968d" upstream="dunfell"/>
+<project dest-branch="dunfell" name="meta-virtualization" path="poky/meta-virtualization" remote="yocto" revision="758868633be479f38d19c3602be0094289fc1a75" upstream="dunfell"/>
+<project dest-branch="dunfell" name="poky" remote="yocto" revision="2a848e95074318f3a243df7b3f40513a13173a82" upstream="dunfell"/>
+<project dest-branch="master" name="yocto-meta-layers/meta-ofdpa.git" path="poky/meta-ofdpa" remote="gitlab" revision="d32a28a7155edfa9e0198350b9db0d084e078bdb" upstream="master"/>
+<project dest-branch="master" name="yocto-meta-layers/meta-open-network-linux.git" path="poky/meta-open-network-linux" remote="gitlab" revision="1ea9758e29680b6faaf368a47233b6cf49474951" upstream="master"/>
+<project dest-branch="master" name="yocto-meta-layers/meta-switch.git" path="poky/meta-switch" remote="gitlab" revision="c4e666ff559b390f0fe74cc6e8ae9a19bf22d6bb" upstream="master"/>
+<project dest-branch="master" name="yocto-meta-layers/meta-tibit.git" path="poky/meta-tibit" remote="gitlab" revision="c461ed177b851e37b620894469e9c4c4112f2db8" upstream="master"/>
+<project dest-branch="master" name="yocto-projects/bisdn-linux.git" path="poky/build-bisdn-linux" remote="gitlab" revision="a4ab9832abb309b70dc40c8a7739732434dbb0de" upstream="master"/>
+</manifest>
